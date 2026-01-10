@@ -20,10 +20,13 @@ public class HelloAction extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		
+//		주석추가
 		
 		response.setContentType("text/html; charset=utf-8;");
 		
 		response.getWriter().print("안녕하세요!!");
+		
+		
 	}
 
 }
