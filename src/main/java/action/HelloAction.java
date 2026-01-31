@@ -21,10 +21,13 @@ public class HelloAction extends HttpServlet {
 		// TODO Auto-generated method stub
 		
 //		주석추가
-		
+		String msg = """
+				   안녕하세요<<br>
+				   반갑습니다
+				""";
 		response.setContentType("text/html; charset=utf-8;");
 		
-		response.getWriter().print("안녕하세요!!");
+		response.getWriter().print(msg);
 		
 		
 	}
