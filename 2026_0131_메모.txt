@@ -1,3 +1,3 @@
-new 메시지 Register
+new message Register
 
 마스터?
